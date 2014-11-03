@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bruno.mobile.redelistmobile.NavigationActivity" >
+
+    <item android:id="@+id/pesquisar"
+        android:title="Pesquisar na RedeList"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+
+        />
+
+
+    <item android:id="@+id/sair"
+        android:title="Sair"
+        android:orderInCategory="100"
+        />
+</menu>

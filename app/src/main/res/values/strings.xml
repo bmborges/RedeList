@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RedeList</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_sobre">Sobre</string>
+    <string name="txtOpniao"><a href="http://www.redelist.com.br/admin/mobile/pesquisa.php">Sua Opnião</a></string>
+    <string name="title_activity_pais">País</string>
+    <string name="title_activity_cidade">Cidade</string>
+    <string name="EmailDesenvolvedor">brunomborges@gmail.com</string>
+    <string name="NomeDesenvolvedor">Bruno Moreira Borges</string>
+    <string name="title_activity_navigation">RedeList</string>
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Fechar navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

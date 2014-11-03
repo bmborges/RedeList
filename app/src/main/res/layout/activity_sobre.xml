@@ -1,0 +1,60 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:paddingTop="25dp"
+        android:paddingBottom="35dp" />
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Nos ajude a melhor o nosso Aplicativo"
+        android:paddingTop="15dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="15dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center_horizontal"
+        android:text="Sua Opinião"
+        android:id="@+id/bt_sobre" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Desenvolvedor"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal"
+        android:paddingTop="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/NomeDesenvolvedor"
+        android:id="@+id/textView2"
+        android:gravity="center_horizontal"
+        android:paddingTop="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/EmailDesenvolvedor"
+        android:id="@+id/textView3"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>

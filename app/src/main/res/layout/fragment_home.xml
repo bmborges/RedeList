@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bruno.mobile.redelistmobile.HomeFragment">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+    >
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView"
+            android:fastScrollEnabled="true"
+            android:layout_above="@+id/bt_plus_empresas" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_plus_empresas"
+            android:text="Mais Empresas"
+            android:drawableLeft="@drawable/ic_action_search"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>
